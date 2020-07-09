@@ -1,190 +1,128 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Home</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="format-detection" content="telephone=no" />
-  <meta http-equiv="X-XSS-Protection" content="1">
-  <link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-
-  </script>
-  <style>
-
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <title>Login Page</title>
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script href="js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class="header">
-    <a id=logo><img src="img/2.jpg" alt="logo"/> &nbsp;&nbsp;
-    <h1>Home</h1>
-    <h1>Labour Portal</h1>
-
-  </div>
-  <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#">Objective</a>
-  <a href="#">Applicable Acts</a>
-  <a href="#">Registration and License</a>
-  <a href="#">EPFO/ESIC/CLC Return</a>
-  <a href="#">Online Register</a>
-  <a href="#">State Integration</a>
-  <a href="#">Services</a>
-  <a href="#">Reports</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
-
-<div class="box">
-      <h2>LOGIN</h2>
-
-      <form method="post" action="http://your-web-domain.com/cgi-bin/formmail.cgi" onsubmit="return checkform(this);">
-           <div class="inputBox">
-            <input type="text" name="" required="">
-            <label>User Id</label>
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav mr-0">
+            <li class="navbar-item active"><a class="nav-link">Home</a></li>
+            <li class="navbar-item "><a class="nav-link">Objective</a></li>
+            <li class="navbar-item"><a class="nav-link">Applicable Acts</a></li>
+            <li class="navbar-item"><a class="nav-link">EPFO/ESCI/CLC Return</a></li>
+            <li class="navbar-item"><a class="nav-link">State Integration</a></li>
+            <li class="navbar-item"><a class="nav-link">Services</a></li>
+            <li class="navbar-item"><a class="nav-link">Report</a></li>
+        </ul>
+      </div>  
+    </div>
+  </nav>
+    
+  <!--header-->
+  <header>
+    <div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-8 offset-sm-3 col-md-5 offset-md-7">
+          <form action="" method="POST" name="loginForm" onsubmit="checkform(event.preventDefault())" >
+            <legend class="text-center" style="font-size:x-large;">Sign Up Form For Establishment Representative Owner</legend>
+            <div class="form-group row">
+                <label for="firstName" class="col-12 col-md-4 col-form-label">First Name</label>
+                <div class="col-12 col-md-8">
+                  <input type="text" pattern="[A-Z]+[a-z]*" title="Use CamelCase e.g. Joe" class=" form-control" id="firstName" name="firstName" placeholder="First Name" required/>
+                </div>   
             </div>
-            <div class="inputBox">
-            <input type="card number" name="" required="">
-              <label>Password</label>
-                </div>
-          <br>
-<div class="capbox">
+            <div class="form-group row">
+                <label for="middleName" class="col-12 col-md-4 col-form-label">Middle Name</label>
+                <div class="col-12 col-md-8">
+                  <input type="text" pattern="[A-Z]+[a-z]*" title="Use CamelCase e.g. Joe" class=" form-control" id="middleName" name="middleName" placeholder="Middle Name"/>
+                </div>   
+            </div>
+            <div class="form-group row">
+                <label for="lastName" class="col-12 col-md-4 col-form-label">Last Name</label>
+                <div class="col-12 col-md-8">
+                  <input type="text" pattern="[A-Z]+[a-z]*" title="Use CamelCase e.g. Joe" class=" form-control" id="lastName" name="lastName" placeholder="Last Name" required/>
+                </div>   
+            </div>
+            <div class="form-group row">
+                <label for="emailId" class="col-12 col-md-4 col-form-label">E-mail Id</label>
+                <div class="col-12 col-md-8">
+                  <input type="email" class=" form-control" id="emailId" name="emailId" placeholder="joe@gmail.com" required/>
+                </div>   
+            </div>
+            <div class="form-group row">
+                <label for="contact" class="col-12 col-md-4 col-form-label">Contact No.</label>
+                <div class="col-12 col-md-8">
+                  <input type="tel" minlength="10" maxlength="10" class="form-control" id="contact" name="contact" placeholder="9********0" required/>
+                </div>   
+            </div>
+            <div class="form-group row">
+                <label for="verificationCode" class="col-12 col-md-4 col-form-label">Verify Code</label>
+                <div class="col-12 col-md-8">
+                  <input class=" form-control" id="verificationCode" name="verificationCode" placeholder="Enter the characters shown" required/>
+                </div> <br/><br>
+              <div class="capbox ">
+              <div id="CaptchaDiv"></div>
+              <input type="hidden" id="txtCaptcha">
+              </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-12 offset-4 ">
+                    <button type="submit" class="btn btn-md btn-success">Sign Up</button>
+                    <button type="reset" class="btn btn-md btn-primary">Reset</button>
+                </div>      
+            </div>
+          </form>
+        </div>
+    </div>
+  </div>  
+  </header>
 
-<div id="CaptchaDiv"></div>
-
-<div class="capbox-inner">
-Type the number:<br>
-
-<input type="hidden" id="txtCaptcha">
-<input type="text" name="CaptchaInput" id="CaptchaInput" size="15"><br>
-
-</div>
-</div>
-<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                          <button type="submit" name="submit" class="btn btn-success">Submit</button>&nbsp;&nbsp;
-                                <button type="submit" name="submit" class="btn btn-success">Reset</button>
-                                   <br><br><center>  <a href="signupUser">Create an Account</a> &nbsp;&nbsp;
-       <a href="forgotPassword">Forgot Password?</a></center>
-                                </form><br/>
-                                <script type="text/javascript">
-
-// Captcha Script
-
-function checkform(theform){
-var why = "";
-
-if(theform.CaptchaInput.value == ""){
-why += "- Please Enter CAPTCHA Code.\n";
-}
-if(theform.CaptchaInput.value != ""){
-if(ValidCaptcha(theform.CaptchaInput.value) == false){
-why += "- The CAPTCHA Code Does Not Match.\n";
-}
-}
-if(why != ""){
-alert(why);
-return false;
-}
-}
-
-var a = Math.ceil(Math.random() * 9)+ '';
-var b = Math.ceil(Math.random() * 9)+ '';
-var c = Math.ceil(Math.random() * 9)+ '';
-var d = Math.ceil(Math.random() * 9)+ '';
-var e = Math.ceil(Math.random() * 9)+ '';
-
-var code = a + b + c + d + e;
-document.getElementById("txtCaptcha").value = code;
-document.getElementById("CaptchaDiv").innerHTML = code;
-
-// Validate input against the generated number
-function ValidCaptcha(){
-var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
-var str2 = removeSpaces(document.getElementById('CaptchaInput').value);
-if (str1 == str2){
-return true;
-}else{
-return false;
-}
-}
-
-// Remove the spaces from the entered and generated code
-function removeSpaces(string){
-return string.split(' ').join('');
-}
-</script>
-
-</div>
-
-  
-</form>
-  </div>
-
-
-</section>
-
-<div id="bottom" class="m2">
-  <div class="container_logo">
-  <div id="govsitelink" class="logo123">
-     <ul class="slides">
-       <li><a title="Ministry of Labour & Employment" href="http://labour.gov.in"target="_blank"><img height="50px" alt="Ministry of Labour & Employment"          src=" img/mole.png"/></a></li>&nbsp;&nbsp;
-        <li><a title="Chief Labour Commissioner(Central)" href="http://clc.gov.in"target="_blank"><img height="50px" alt="Chief Labour Commissioner(Centralttt)"
-        src="img/mole5.png "/></a></li>&nbsp;&nbsp;
-        <li><a title="National Carrer Service" href="https://www.ncs.gov.in"target="_blank"><img height="55px" alt="National Career Service"          src="img/mole4.png "/></a></li>&nbsp;&nbsp;
-        <li><a title="Employee's Provident Fund Organisation" href="http://epfindia.gov.in/"target="_blank"><img height="55px" alt="Employee's Provident Fund                   Organisation"src="img/mole2.png "/></a></li>&nbsp;&nbsp;
-        <li><a title="Directorate General Of Mines Safety" href="http://www.dgms.gov.in/"target="_blank"><img height="55px" alt="Directorate General Of Mines Safety"
-         src="img/mole.png "/></a> </li>&nbsp;&nbsp;
-        <li><a title="Employee's State Insurance Corporation" href="http://esic.nic.in/"target="_blank"><img height="50px" alt="Employee's State Insurance Corporation"
-         src="img/mole1.png "/></a></li>&nbsp;&nbsp;
-        <li><a title="National Portal of India" href="http://india.gov.in/" target="_blank"><img height="50px" alt="National Portal of India"           src="img/mole3.png "/></a></li>&nbsp;&nbsp;
-
+  <!-- Footer -->
+  <footer class="page-footer font-small pt-1">
+  <!-- Footer Elements -->
+    <div class="container">
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class=" mx-1">Policies </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="mx-1">FAQ</a>
+        </li>
+        <li class="list-inline-item">
+          <a class=" mx-1">Help</a>
+        </li>
+        <li class="list-inline-item">
+          <a class="mx-1">Contact Us</a>
+        </li>
+        <li class="list-inline-item">
+          <a class="mx-1">Policy</a>
+        </li>
+        <li class="list-inline-item">
+          <a class="mx-1">About Us</a>
+        </li>
       </ul>
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-1">© 2020 Copyright:</div>
+    <!-- Copyright -->
+  </footer>
+<!-- Footer -->
 
-  </div>
-  </div>
-  </div>
-<!--  <div class="container">
-  <div id="govsitelin" class="logo123">
-      <ul class="slide">
-      <li><a title="National Informatics Center" href="http://www.nic.in/"target="_blank"><img height="50px" alt="National Informatics          center"src=" "/></a></li>
-        <li><a title="Digital India" href="http://www.digitalindia.gov.in" target="_blank"><img height="55px" alt="Digital India" src=" "/></a></li>
-
-      <ul>
-</div>
-</div>-->
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-<footer>
-<div class="navbar">
-<center>
-  <a href="#home" class="active">Website Policies</a>
-  <a href="#FAQ">FAQ</a>
-  <a href="#help">Help</a>
-  <a href="#Policy">Policy</a>
-  <a href="#contact">Contact Us</a>
-  <a href="#about us">About Us</a> </center>
-  <p>2020 Copyright</p>
-  </div>
-</footer>
-
-
-
-
-
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
