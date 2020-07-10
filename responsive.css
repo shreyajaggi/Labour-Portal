@@ -1,0 +1,369 @@
+/* ************* Media Queries Tablets ****************** */
+@media only screen and (max-width: 1400px) {
+/*#contact_persons_wrap .addPlus, #contact_persons_wrap .addMinus {margin-right: 20px;}
+#e_contacts_wrap .addPlus, #e_contacts_wrap .addMinus {margin-right: 20px;}*/
+
+#relatedEntities > .tableOut{margin-bottom: 20px;}
+#relatedEntities table.tableData .closeBtn {width: 150px;}
+}
+@media only screen and (max-width: 1169px) {
+.topStrip .leftLink, #wrapperLogo #logo, #footer .footerLeft{ margin-left:1.2%;}
+.topStrip .rightLinks, #wrapperLogo .mainNavigation, #footer .footerRight{margin-right:1.2%;}
+#wrapperLogo #logo{ width:20%;}
+.swachhBharat{ width:10%;}
+#wrapperLogo .mainNavigation{ width:60%;}
+#nav li a{ font-size:0.85em;}
+
+#FeedbackFeedbackForm .cols6{ width:100%;}
+#FeedbackFeedbackForm .feedBackNew .signupField.signupFieldFull label.feedCustLabel{ width:20%;}
+#FeedbackFeedbackForm .feedBackNew .signupField.signupFieldFull #FeedbackReferenceUfn, #FeedbackFeedbackForm .feedBackNew .signupField.signupFieldFull #FeedbackMobileNo, #FeedbackFeedbackForm .feedBackNew .signupField.signupFieldFull #FeedbackEmail{ width:80%!important;}
+.tabNavi li a{ font-size:0.8em;}
+.briefLast .signupField textarea{ width:75%}
+
+#contact_persons_wrap .addPlus, #contact_persons_wrap .addMinus {margin-right: 0;}
+#e_contacts_wrap .addPlus, #e_contacts_wrap .addMinus {margin-right: 0;}
+}
+@media only screen and (max-width: 1023px) {
+.signUpFLft{ width:68%;}
+.signUpFRft{ width:32%}
+
+#wrapperLogo #logo, .swachhBharat{ width:45.5%; margin-bottom:10px;}
+.swachhBharat{ text-align:right; margin-left:0; float:right; margin-right:1.5%;}
+
+
+#wrapperLogo .mainNavigation{ width:100%; clear:both;}
+.menuPart.alignRight{ text-align:center; float:none;}
+#nav{ float:none; display:inline-block;}
+#nav li a{ font-size:1em;}
+
+#UserKnowlinForm .captcha, #link_establishment .captcha, #UserUserloginForm .captcha{ width:30%;}
+.ecoActivity .signupField label, .linGenFields .signupField label{ width:100%;}
+.ecoActivity .signupField label br, .linGenFields .signupField label br{ display:none;}
+.ecoActivity .signupField input[type="text"]{ max-width:256px; width:100%;}
+.geoLatLongField .geoMap{ width:20%;}
+.geoLatLongField .width80per{ width:75%;}
+.mainName .signupField{ padding-left:0;}
+#lin_edit .previousDataWrap, #establishment_additional_info .previousDataWrap, #lin_edit .ecoActivity .previousDataWrap, #establishment_additional_info .ecoActivity .previousDataWrap{ padding-left:0;}
+#lin_edit .geoLatLongField .previousDataWrap{ padding-left:15px;}
+
+.midCol{ width:100%;}
+.linReg .signupField select, .linReg .signupField input[type="text"]{ width:90%!important;}
+.comingsoonBlock{ width:90%;}
+.underConstructWrap{ padding:235px 0 0 0; font-size:22px; text-align:center;}
+
+.dashCounter {width: 100%;}
+.dashNotification {width: 100%;}
+}
+@media only screen and (max-width: 959px) {
+.topStrip{ text-align:center;}
+.topStrip .leftLink, .topStrip .rightLinks{ float:inherit; margin:0; display:inline-block; width:100%;}
+.topStrip .leftLink{ border-bottom:1px solid #bebebe; min-height:39px;}
+.topStrip li{ float:inherit; display:inline-block;}
+.topStrip .leftLink a{ text-align:center!important;}
+#UserKnowlinForm .captcha, #link_establishment .captcha, #UserUserloginForm .captcha{ width:32%;}
+.bg-aqua-gradient, .bg-aqua-gradient-light, .bg-green-gradient-light{ width:30%;}
+.signupField .inputBoxOut input[type="text"], .signupField label, .signupField .input.select select, .signupField .input.text input[type="text"]{ width:100%;}
+.loginForm .signupField.signupFieldFull label, .loginForm .signupField{ width:100%;}
+.loginForm .signupField{ margin:10px 0% 0;}
+.loginForm .signupField.signupFieldFull .error-message, .loginForm .signupField .error-message{ padding-left:0;}
+.annlRetnLeftNav { width:30%;}
+.annlRetnRightContent{ width:70%;}
+.common_return_datepicker{ width:90%!important;}
+
+a.navIcon {display: none;}
+.mainPanel.leftPadRem {padding-left: 0;}
+.sidePanel {height:auto; left: inherit !important; position: inherit; top: inherit; width: 100%;}
+#return_act_license_validate .fieldSetTwoCol .signupField .inputBoxOut {width: 100%;}
+.signupField textarea {width: 100%;}
+
+#contact_persons_wrap .addPlus, #contact_persons_wrap .addMinus {margin-right: 0; margin-top: 0;}
+#e_contacts_wrap .addPlus, #e_contacts_wrap .addMinus {margin-right: 0; margin-top: 0;}
+}
+@media only screen and (max-width: 819px) {
+.newLogin, .newLoginLeft, .newLoginRight{ width:100%;}
+.newLoginWrap{ padding:0;}
+.newLoginLeft, .newLoginRight{ min-height:inherit;}
+.newLoginLeft{ padding:20px 0; background-position:right;}
+.newLoginRight{ padding:10px 20px;}
+}
+@media only screen and (min-width: 801px) {
+#nav ul {display:block !important;}
+}
+@media only screen and (max-width: 800px) {
+/*Navigation*/
+#nav {display:none;/*position:absolute;left:0;right:0;*/background:#073e74;}
+#nav ul{background:#305d93;}
+.toggleMenu, #nav .menuIcon {display:block;}
+#nav li {float:none;display:block;border:none;}
+#nav li a{border-top:1px solid #002d63;}
+#nav li.parent {position:relative;}
+#nav li .menuIcon, #nav li li .menuIcon {width:46px; height:auto; background-color:#002d63; background-color: rgba(0, 45, 99, 0.5); background-repeat:no-repeat; background-position:center 15px; position:absolute;right:0;top:0;bottom:0;cursor:pointer;}
+#nav li .menuIcon.active, #nav li li .menuIcon.active {background-color:#002d63; background-color: rgba(1, 36, 78, 0.5);}
+#nav li > a:hover, #nav li.hover > a, #nav li.active > a, #nav li ul li a:hover, #nav li ul li > a.selected, #nav ul a:hover, .noJS #nav ul a:focus, #nav ul a.selected, #nav > li > a:hover, #nav > li.hover > a, #nav > li.focus > a {background-color:#002d63;color: #fff;}
+#nav ul {width:100%;display:none;position:static;transition:none;-webkit-transition:none;}
+.hasJS #nav ul{opacity:1;}
+#nav li ul li, #nav ul a {width:100%}
+#nav > li:hover > ul, #nav li li:hover > ul, #nav li li li:hover > ul {display:none;}
+#nav ul, #nav *:hover ul ul, #nav .hover ul ul, #nav .focus ul ul {margin-left:0;}
+#nav li a {padding-left:15px;padding-right:15px;display:block;line-height:30px;font-size:14px;}
+#nav li ul li a {padding:7px 55px 7px 25px; display:block;line-height:21px; color:#fff;border:none}
+#nav li ul li ul li a {padding-left:45px;background-position:33px center}
+#nav li ul li ul li ul li a {padding-left:60px;background-position:45px center}
+#nav > li > a:hover, #nav > li.hover > a, #nav > li.focus > a, #nav > .highlight > a {background-color:#305d93;color: #fff;}
+#nav li ul li a:hover, #nav li ul li > a.selected, #nav ul a:hover, .noJS #nav ul a:focus, #nav ul a.selected, #nav ul > .highlight > a {background-color:#305d93;color: #fff;}
+
+
+
+.signUpFLft, .signUpFRft, #wrapperLogo .mainNavigation{ width:100%}
+#wrapperLogo .mainNavigation{ margin:0;}
+.toggleMenu{ padding:10px; background:#002d63;}
+
+#nav, .menuPart.alignRight{ float:none;}
+#nav li a{ padding:0;}
+.signUpBox{ width:100%;}
+.signUpFRft{ min-height:inherit; padding-bottom:15px; margin-top:20px;}
+
+#nav li a{ margin:0; padding:5px 10px; text-align:left;}
+#nav li:before{ background:none;}
+#nav li a:hover:after, #nav li.hover a:after{ background:none; width:0%;}
+#nav li a{ color:#fff;}
+
+.geoLatLongField .geoMap{ width:30%;}
+.geoLatLongField .width80per{ width:65%;}
+.moduleSearchOuter .moduleSearch li{ width:34.7%; min-height:42px; margin-bottom:5px;}
+
+#link_upload_auth_letter .signupField{ width:100%; margin:0;}
+.ordinateBtn{ margin-top:30px;}
+.resContent{ padding:10px 0;}
+#establishment_additional_info .linGenFields .colLeft, #establishment_additional_info .linGenFields .colRight{ width:100%;}
+#establishment_additional_info .linGenFields .previousDataWrap{ padding-left:41.8%;}
+
+#link_establishment .alignLeft.mrgT15{ margin-top:30px;}
+#link_establishment .mrgB50 { margin-bottom:10px;}
+#personal_details .colLeft, #personal_details .colRight{ width:100%;}
+#personal_details .signupField.signupFieldFull label{ width:32%;}
+#update_identifier .resutGridSearchBtn button{ padding:6px 10px;}
+#tab-4 .moduleSearchOuter .moduleSearch li{ margin-bottom:5px;}
+
+
+
+}
+@media only screen and (max-width: 768px) {
+.r-tabs .r-tabs-nav {display: none;}
+.r-tabs .r-tabs-accordion-title {display: block;}
+.resTab {position: relative;border:1px solid #00c5ad;}
+.resTab .tabNav {margin:0;padding: 0; list-style:none}
+.resTab .tabNav li {display: inline-block;margin: 0;position: relative;background-color: #00c5ad;}
+.resTab .tabNav li a {display: inline-block;padding: 10px 12px;text-decoration: none;font-size: 14px;font-weight: bold;color: #fff;}
+.resTab .tabNav .r-tabs-state-active a {color: #00c5ad;text-shadow: none;background-color: white;}
+.resTab .tabContent {padding: 15px;display: none;}
+.resTab .r-tabs-panel.r-tabs-state-active {display: block;}
+.resTab .r-tabs-accordion-title {display:none;}
+.resTab .tabNav .r-tabs-state-disabled {opacity: 0.5;}
+.resTab .r-tabs-accordion-title .r-tabs-anchor {display: block;padding: 10px;background-color: #00c5ad;color: #fff;font-weight: bold;text-decoration: none;}
+.resTab .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {background-color: #fff;color: #00c5ad;text-shadow: none;}
+.resTab .r-tabs-accordion-title.r-tabs-state-disabled {opacity: 0.5;}
+.noJS .resTab .tabContainer { height:150px; overflow:hidden}
+.noJS .resTab .tabContent { display:block; height:150px}
+.colMain{ margin:0;}
+.bg-aqua-gradient, .bg-aqua-gradient-light, .bg-green-gradient-light{ width:46.5%;}
+#UserKnowlinForm .signupField label, #ManageUsersRegisterManualForm .signupField label, #link_establishment .signupField label,
+#ManageUsersRegisterManualForm .signupField input[type="text"], #ManageUsersRegisterManualForm select{ width:100%;}
+#UserKnowlinForm .signupField label br, #ManageUsersRegisterManualForm .signupField label br, #link_establishment .signupField label br{ display:none;}
+#ManageUsersRegisterManualForm .signupField .error-message{ padding-left:0; clear:both;}
+#ManageUsersRegisterManualForm .captchaValidateMsg input[type="text"]{ width:30%;}
+#declare_div, #actual_div{ margin-left:0;}
+.loginForm .signupField.signupFieldFull{ width:70%;}
+.loginForm .signupField.signupFieldFull label{ width:32%}
+/*.loginForm .signupField.signupFieldFull .error-message{ padding-left:32%;}*/
+.mainName .signupField .error-message, .ecoActivity .signupField .error-message, #lin_registration .linGenFields .error-message{ padding-left:0;}
+.btnRow{ float:none;}
+#UserKnowlinForm .signupField .error-message{ padding-left:0;}
+#lin_edit .mainName .signupField textarea{ width:81%;}
+#feedback_nc .signupField label, #feedback_nc .signupField select, #feedback_nc .signupField input[type="text"], #feedback_nc .customFull.signupFieldFull label{ width:100%;}
+#feedback_nc .customFull.signupFieldFull textarea{ width:46.5%;}
+#feedback_nc .captchaValidateMsg input[type="text"]{ width:25%!important;}
+#feedback_nc .signupField .error-message, #feedback_nc .customFull.signupFieldFull .error-message{ padding-left:0;}
+
+#update_address .signupField label, #update_address .signupField select, #update_address .signupField input[type="text"]{ width:100%;}
+#update_address .signupField .error-message{ padding-left:0;}
+#update_address .mngGeoLoc .ordinateBtn{ margin-right:0;}
+#update_address .ordinateBtn{ font-size:12px;}
+
+.cols4 {margin-bottom: 15px; width: 100%;}
+}
+/* ************* Mobiles Media Queries ****************** */
+@media only screen and (max-width: 767px) {
+.formList .boxs > li, .formList .boxs > div {float:none; width:100%;}
+.width50p {width:100%;}
+#footer{ height:auto;}
+#footer .footerLeft{ padding:10px;}
+#footer p{ line-height:normal;}
+#footer .footerRight, #footer p{ width:100%; text-align:center;}
+#footer .footerLeft{ float:none;}
+#footer .footerLeft{ margin-left:0}
+#footer .footerRight{ margin-right:0;}
+.topStrip .leftLink, #footer .footerLeft{ margin-left:0;}
+.loginForm .signupField.signupFieldFull{width:70%;}
+.loginForm .signupField.signupFieldFull label{ width:32%;}
+.resContainer{ padding:0;}
+.mainName .signupField .error-message, .ecoActivity .signupField .error-message, .signupField .error-message{ padding-left:0;}
+#lin_registration .linGenFields .error-message{ padding-left:0;}
+
+/*Responsive Table*/
+.responsiveTable, .responsiveTable tr, .responsiveTable td, .responsiveTable td:before { display:block; text-align:left; border:none;	/* Converts a table, table row, table column and table column:before into a block element */ }
+.responsiveTable, .responsiveTable tr, .responsiveTable td:last-child { border-bottom:none; }
+.responsiveTable thead, .responsiveTable tr th { position:absolute;	/* Hides table head but not using display none */ top:-1000em; left:-1000em; }
+.responsiveTable tr { border:1px solid #eeeeee; border-bottom:2px solid #eeeeee;  margin:0 0 20px; }
+.responsiveTable tr td:nth-child(1) { /* first column of the row */ border-left:none;}
+.responsiveTable tr td:last-child { /* last column of the row */ border-right:none; }
+.responsiveTable tr:last-child .td, .responsiveTable td { /* Column in the last row and column */ border-bottom:1px solid #eeeeee; }
+.responsiveTable td:before { /* prints the value of data-label attribute before the column data */ font-weight:bold; padding-right:20px; line-height:27px; color:#174471; content:" "attr(data-label)"";	/* call the attribute value of data-label and adds a string // */ }
+.responsiveTable tbody {display:block;}
+.responsiveTable tr td {padding:5px 15px; width:auto !important;}
+.loginForm .signupField.signupFieldFull.captchaValidateMsg label{ width:100%;}
+.annlRetnLeftNav, .annlRetnRightContent { width:100%;}
+
+#minimumwage_search .signupField {margin: 0 auto 25px; width: 100% !important;}
+#minimumwage_search .chosen-container {width: 100% !important;}
+
+}
+@media only screen and (max-width: 639px) {
+.formList .boxs {margin-left:0;}
+.formList .box {float:none; width:auto; margin-left:0;}
+.signupField label, .loginForm .signupField.signupFieldFull label,
+.loginForm .signupField,
+#UserRegisterForm .signupField input[type="text"], #UserUserloginForm .signupField input[type="text"], #UserUserloginForm .signupField input[type="password"],
+.signupField.signupFieldFull label,
+.signupField label, .signupField select,
+.signupField input[type="text"],
+input[type="email"], input[type="password"],
+.actRegi .signupField.signupFieldFull label,
+.linReg .signupField,
+.signupField label.gender,
+.geoLatLongField .width80per, .briefLast .signupField textarea,
+.linGenFields .signupField label{ width:100%;}
+#UserRegisterForm .signupField.signupFieldFull input[type="text"], #UserUserloginForm .signupField.signupFieldFull input[type="text"]{ width:35%}
+#UserKnowlinForm .captcha, #link_establishment .captcha, #UserUserloginForm .captcha{ width:98%; display:inline;}
+.signupField label, .loginForm .signupField.signupFieldFull label, .loginForm .signupField{ margin:0;}
+.loginForm .signupField.signupFieldFull{ width:98%;}
+.signupField .error-message, .loginForm .signupField.signupFieldFull .error-message{ padding-left:0;}
+.signupField{ width:100%; margin:10px 0 0}
+.custVldMobFld .custVldMobNo{ top:25px; width:75%!important; right:0%;}
+.signupField.signupFieldFull label br{ display:none;}
+.captcha{ overflow:inherit; display:inline;}
+.signUpFLft{ padding:0;}
+.colLeft, .colRight{ width:100%; padding:0;}
+#declare_div, #actual_div{ margin-left:0;}
+.actRegi .signupField.signupFieldFull label br{ display:none;}
+#UserForgotpasswordForm .signupField, #UserForgotuserForm .signupField, #UserUnsubscribemobileForm .signupField, #UserChangepasswordForm .signupField{ width:100%; margin:13px 0 0;}
+#UserForgotpasswordForm img.tooltip, #UserChangepasswordForm img.tooltip{ left:62%; top:22px;}
+.actRegi .signupField.signupFieldFull .error-message{padding-left:0; clear:both;}
+.linReg .signupField select, .linReg .signupField input[type="text"]{ width:90%!important;}
+.linbtnAlign{ margin-top:20px; margin-right:0;}
+.resContainer{ padding:0;}
+#update_address .signupField .error-message{ padding-left:0}
+#DashboardDob, #DashboardJoiningDate{ width:80%;}
+#personal_details, #update_address, #econtact_process, #lin_registration, .linResTabLin #tab-2, .linResTabLin #tab-3, .linResTabLin #tab-4, .linResTabLin #tab-5, .linResTabLin #tab-6, .linResTabLin #tab-7, .linResTabLin #tab-8, #editLinTabs #tab-1{ padding-bottom:10px; }
+.moduleSearchOuter .moduleSearch li{ width:100%; margin-bottom:10px;}
+.clearClose{ padding-left:10px;}
+.tableMain{ width:100%; overflow-x:scroll; margin-bottom:10px;}
+.signUP-head h1{ height:auto;}
+.linStatusBtn{ margin-top:5px; float:none;}
+.fieldSet{ padding:10px;}
+.geoLatLongField .geoMap{ width:57%; margin-left:15px;}
+.geoLatLongField .alignRight{ float:inherit;}
+#establishment_econtact_process input[type="submit"], #establishment_econtact_process input[type="reset"], #establishment_econtact_process input[type="button"], #establishment_econtact_process button, #establishment_econtact_process .button{ font-size:0.9em;}
+.customselectWrap{ max-width:inherit;}
+.customselectWrap .mySelectBoxClass, .customselectWrap .customSelectInner, .ecoActivity .signupField input[type="text"]{ max-width:inherit;}
+#establishment_additional_info .linGenFields.colMain{ margin:0;}
+.linResTabLin #tab-5 .tableMain, .linResTabLin #tab-7 .tableMain, #editLinTabs #tab-3 .tableMain{ overflow:inherit;}
+.geoLatLongField .geoMap{ width:95%;}
+.custVldMobFld .error-message{ clear:both;}
+.signupField.signupFieldFull .error-message{ padding-left:0;}
+
+#return_act_license_validate .fieldSetTwoCol {width: 100%;}
+
+.dashCounter ul li {margin: 0 0 20px; width: 100%;}
+
+.cols4 {padding: 0;}
+.datePickerWrap{ position:relative;}
+.datePickerWrap .ui-datepicker-trigger{ float:right; right:3px; bottom:3px; position:absolute; left:inherit; top:inherit; }
+}
+
+@media only screen and (max-width: 479px) {
+.dashBoardLinks{ text-align:center;}
+.dashBoardLinks li{ display:inline-block; float:inherit;}
+.signupField{ margin:0;}	
+.swachhBharat{ width:100%; margin-right:0; text-align:center;}
+#wrapperLogo #logo{ width:100%; text-align:center; margin-left:0;}
+.topLinks li, .navRight li{ width:100%; display:block;}
+.navRight{width:100%; text-align:left;}
+.rightLinks li{ border-bottom:1px solid #bebebe; width:100%;}
+.topStrip ul.rightLinks li.langs{height:40px;}
+.rightLinks li:last-child{ border:none;}
+.navRight li:before, .topStrip li:before{ background:none;}
+.adminUserList, .adminUserListSwitch{ float:left;}
+.rightLinks .langs, .rightLinks li{ float:left; width:100%;}
+.langs .selectfield{ width:100%; text-align:left; float:left;}
+.topStrip .leftLink li:before{ background:none;}
+.topStrip .leftLink li{ padding:0; width:100%;}
+.topStrip .leftLink li:last-child{ border-top:1px solid #ccc;}
+.actRegi .signupField.signupFieldFull input[type="text"]{ width:62%;}
+.actRegi #UserForgotpasswordForm .signupField.signupFieldFull input[type="text"], .actRegi #UserForgotuserForm .signupField.signupFieldFull input[type="text"]{ width:100%;}
+.actRegi #UserForgotpasswordForm .signupField input#UserSsecurity, .actRegi #UserForgotuserForm .signupField input#UserSsecurity{ width:35%;}
+.actRegi #UserForgotuserForm .signupField input#UserCountryCode{ width:19%;}
+.actRegi .signupField input.mobilesnum[type="text"]{ width:15%;}
+.actRegi .signupField input#UserSsecurity{ width:32%;}
+.bg-aqua-gradient, .bg-aqua-gradient-light, .bg-green-gradient-light{ width:98.5%; margin-bottom:10px;}
+.geoLatLongField .width80per,
+.adminUserList, .adminUserListSwitch, 
+.adminUserDetails, .adminUserDetailsSwitch,
+.summuryLinInfo .summuryLinName label, .summuryLinInfo .colThree label, .summuryLinInfo .colThree,
+.linbtnAlign, .moduleSearchOuter .moduleSearch li.lastLinBtnLi, .linStatusBtn .statusBtn, input[type="submit"], input[type="reset"], input[type="button"], button, .button{ width:100%; margin-bottom:5px; text-align:center;}
+#establishment_econtact_process .closeBtn{ margin-top:10px;}
+/*.open{ height:38px;}*/
+.addEconIdentityNote{ position:inherit; top:0;}
+.topStrip li.langs .selectfield .mySelectBoxClass{ background-position:98.5% center; padding:6px 10px}
+.arrow-up{ right:3px;}
+#UserRegisterForm input[type="reset"], input[type="submit"], .resetBtn{ width:100%; margin:10px 0 0 0;}
+a.closeBtn, #UserRegisterForm input[type="reset"], input[type="submit"], .resetBtn, .linStatusBtn .statusBtn{ text-align:center;}
+#btncancel, .btnRow, #establishment_econtact_process .closeBtn{ display:block; width:100%;}
+#establishment_econtact_process .closeBtn{ margin:0; margin-top:5px;}
+.signUP-head h1{ padding:10px;}
+.clearClose{ padding-right:10px;}
+#establishment_econtact_process input[type="submit"], #establishment_econtact_process input[type="reset"], #establishment_econtact_process input[type="button"], #establishment_econtact_process button, #establishment_econtact_process .button{ margin-bottom:8px;}
+a.closeBtn, #UserRegisterForm input[type="reset"], input[type="submit"], .resetBtn, .linStatusBtn .statusBtn{ width:100%; margin:5px 0;}
+.declaration .signupField label, .declaration .signupField select{ display:block; width:100%;}
+
+.authoUpload .signupField label{ width:100%; padding:0 0 10px 0;}
+#link_upload_auth_letter .uploadLetter{ margin:0;}
+#link_upload_auth_letter .signupField{ margin-bottom:10px;}
+.authoUpload .fileUpload{ max-width:inherit;}
+#link_upload_auth_letter .fileUploadField{ width:100%;}
+#FeedbackFeedbackForm .feedBackNew .signupField.signupFieldFull label{ width:100%; padding:0; text-align:left; padding-bottom:10px;}
+#FeedbackFeedbackForm .feedBackNew .fa-user-o, #FeedbackFeedbackForm .feedBackNew .fa-mobile-phone, #FeedbackFeedbackForm .feedBackNew .fa-envelope-o, #FeedbackFeedbackForm .feedBackNew .fa-feed{right:5px; top:36px}
+#FeedbackFeedbackForm .feedBackNew .signupField.signupFieldFull input[type="text"], #FeedbackFeedbackForm .feedBackNew .signupField.signupFieldFull #FeedbackFeedbackText, #FeedbackFeedbackForm .feedBackNew .signupField.signupFieldFull #FeedbackReferenceUfn, #FeedbackFeedbackForm .feedBackNew .signupField.signupFieldFull #FeedbackMobileNo, #FeedbackFeedbackForm .feedBackNew .signupField.signupFieldFull #FeedbackEmail{ width:100%!important;}
+#FeedbackFeedbackForm .feedBackNew .signupField.signupFieldFull label.feedCustLabel{ width:100%; text-align:left;}
+#link_establishment .alignLeft.mrgT15{ width:100%; margin-top:10px;}
+#econtact_process .btnRow button, #update_identifier .resutGridSearchBtn button, #identifier_process .btnRow button, #personal_details .btnRow input[type="submit"], #update_address .btnRow input[type="submit"]{ margin-bottom:5px;}
+#econtact_process a.closeBtn{ margin-top:0;}
+.mngGeoLoc .ordinateBtn{ margin-right:0;}
+#feedback_nc input.linSmallInput{ width:100%!important;}
+#feedback_nc .linBtnSmalll{ margin-left:0; text-align:center; margin-top:10px;}
+#feedback_nc input[type="reset"], #feedback_nc input[type="submit"]{ margin-left:0;}
+#feedback_nc .customFull.signupFieldFull textarea, #feedback_nc .customFull.signupFieldFull label{ width:100%;}
+#feedback_nc #btncancel{ margin-left:0px; margin-top:5px; padding:3px 12px;}
+#feedback_nc .customFull.signupFieldFull .error-message{ padding-left:0;}
+#wrapperMain{padding-bottom: 20px;}
+#UserRegisterForm .captchaValidateMsg label{ width:100%;}
+.moduleSearch li input.searchBtn{ width:100%;}
+#lin_edit .mainName .signupField label, #lin_edit .mainName .signupField textarea{ width:100%;}
+.actRegi #UserForgotuserForm .signupField.signupFieldFull input.mobileNumNew[type="text"]{ float:right; width:79%;}
+.linkAlign{ display:block;}
+.linkAlign a{ padding:0 10px;}
+#footer li{ float:none;}
+.engName, .hinName, .registerSubReseet .submit, .registerSubReseet button.resetBtn{ width:100%;}
+}
+@media only screen and (max-width: 359px) {
+}
