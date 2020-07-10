@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <title>Registration Page</title>
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script href="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav mr-0">
+            <li class="navbar-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="navbar-item "><a class="nav-link" href="#">Objective</a></li>
+            <li class="navbar-item"><a class="nav-link" href="#">Applicable Acts</a></li>
+            <li class="navbar-item"><a class="nav-link" href="#">EPFO/ESCI/CLC Return</a></li>
+            <li class="navbar-item"><a class="nav-link" href="#">State Integration</a></li>
+            <li class="navbar-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="navbar-item"><a class="nav-link" href="#">Report</a></li>
+        </ul>
+      </div>  
+    </div>
+  </nav>
+    
+  <!--header-->
+  <!-- <header> -->
+    <div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-8 offset-sm-3 col-md-5 offset-md-7">
+          <form action="" method="POST" name="loginForm" onsubmit="checkform(event.preventDefault())" >
+            <legend class="text-center" style="font-size:x-large;">Sign Up Form For Establishment Representative Owner</legend>
+            <div class="form-group row">
+                <label for="firstName" class="col-12 col-md-4 col-form-label">First Name</label>
+                <div class="col-12 col-md-8">
+                  <input type="text" pattern="[A-Z]+[a-z]*" title="Use CamelCase e.g. Joe" class=" form-control" id="firstName" name="firstName" placeholder="First Name" required/>
+                </div>   
+            </div>
+            <div class="form-group row">
+                <label for="middleName" class="col-12 col-md-4 col-form-label">Middle Name</label>
+                <div class="col-12 col-md-8">
+                  <input type="text" pattern="[A-Z]+[a-z]*" title="Use CamelCase e.g. Joe" class=" form-control" id="middleName" name="middleName" placeholder="Middle Name"/>
+                </div>   
+            </div>
+            <div class="form-group row">
+                <label for="lastName" class="col-12 col-md-4 col-form-label">Last Name</label>
+                <div class="col-12 col-md-8">
+                  <input type="text" pattern="[A-Z]+[a-z]*" title="Use CamelCase e.g. Joe" class=" form-control" id="lastName" name="lastName" placeholder="Last Name" required/>
+                </div>   
+            </div>
+            <div class="form-group row">
+                <label for="emailId" class="col-12 col-md-4 col-form-label">E-mail Id</label>
+                <div class="col-12 col-md-8">
+                  <input type="email" class=" form-control" id="emailId" name="emailId" placeholder="joe@gmail.com" required/>
+                </div>   
+            </div>
+            <div class="form-group row">
+                <label for="contact" class="col-12 col-md-4 col-form-label">Contact No.</label>
+                <div class="col-12 col-md-8">
+                  <input type="tel" minlength="10" maxlength="10" class="form-control" id="contact" name="contact" placeholder="9********0" required/>
+                </div>   
+            </div>
+            <div class="form-group row">
+                <label for="verificationCode" class="col-12 col-md-4 col-form-label">Verify Code</label>
+                <div class="col-12 col-md-8">
+                  <input class=" form-control" id="verificationCode" name="verificationCode" placeholder="Enter the characters shown" required/>
+                </div> <br/><br>
+              <div class="capbox ">
+              <div id="CaptchaDiv"></div>
+              <input type="hidden" id="txtCaptcha">
+              </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-12 offset-4 ">
+                    <button type="submit" class="btn btn-md btn-success">Sign Up</button>
+                    <button type="reset" class="btn btn-md btn-primary">Reset</button>
+                </div>      
+            </div>
+          </form>
+        </div>
+    </div>
+  </div>  
+  <!-- </header> -->
+
+  <!-- Footer -->
+  <footer class="page-footer font-small pt-1">
+  <!-- Footer Elements -->
+    <div class="container">
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class=" mx-1">Policies </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="mx-1">FAQ</a>
+        </li>
+        <li class="list-inline-item">
+          <a class=" mx-1">Help</a>
+        </li>
+        <li class="list-inline-item">
+          <a class="mx-1">Contact Us</a>
+        </li>
+        <li class="list-inline-item">
+          <a class="mx-1">Policy</a>
+        </li>
+        <li class="list-inline-item">
+          <a class="mx-1">About Us</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-1">© 2020 Copyright:</div>
+    <!-- Copyright -->
+  </footer>
+<!-- Footer -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

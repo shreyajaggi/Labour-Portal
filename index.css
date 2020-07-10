@@ -2,6 +2,13 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 
+    background-image:url("https://assets.nst.com.my/images/articles/asing.jpg_1519691648.jpg") ;
+    height:100%;
+    width:100%;
+    background:no repeat;
+    background-size:cover;
+    
+
 
   }
 
@@ -331,100 +338,3 @@ text-align: center;
 	margin: 3px 0px 1px 0px;
 	width: 105px;
 	}
-  .mySlides {display: none;}
-  img {vertical-align: middle;}
-  
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 100%;
-    position: relative;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 1px;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    height: 5px;
-    width: 5px;
-    margin: 0 1px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
-  }
-  .right {
-    float: right;
-    width: 1200px;
-    padding: 10px;
-  }
-  .left {
-    float: left;
-    padding: 10px;
-  }
-  /* style of dropdowm button */
-  .dropbtn {
-    background-color: #2F4F4F;
-    color: white;
-    padding: 15px;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-  }
-  /* position of drop content */
-  .drop{
-   position:relative;
-   display: block;
-  }
-  /* style of drop button */
-  .drop-content{
-   display:none;
-   background-color:#C0C0C0;
-   position:absolute;
-   min-width:150px;
-   box-shadow: 0px 10px white;
-   Z-index: 1;
-  }
-  .drop-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .drop-content a:hover {background-color: green}
-  
-  .drop:hover .drop-content {
-    display: block;
-  }
-  .drop:hover .dropbtn {
-    background-color: #808080;
-  }

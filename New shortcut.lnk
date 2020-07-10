@@ -1,0 +1,90 @@
+<html>
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-XSS-Protection" content="1">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+  </script>
+</head>
+<body>
+  <div class="header">
+    <a id=logo><img src="https://i.pinimg.com/originals/89/20/44/8920443a22f9d64017bb21ac71c36652.jpg" alt="logo"/> &nbsp;&nbsp;
+    <h1>Home</h1>
+    <h1>Website Title</h1>
+
+  </div>
+  <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#">Objective</a>
+  <a href="#">Applicable Acts</a>
+  <a href="#">Registration and License</a>
+  <a href="#">EPFO/ESIC/CLC Return</a>
+  <a href="#">Online Register</a>
+  <a href="#">State Integration</a>
+  <a href="#">Services</a>
+  <a href="#">Reports</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<section class="">
+<div class="simg">
+  <img src="https://lh3.googleusercontent.com/proxy/f9R0XK-mV7_VspRKVwGtaIwY5ZHhChGgjYdZrfRYooX0TNIPUF4ZQEurxF9nDWHMDCrEoMVIsvkO7hBzWT0" alt="image">
+</div>
+  <div class ="form_box">
+    <form id="login" name="loginForm" action="" method="post" autocomplete="off">
+
+      <label for"useId">User Id</label>
+      <input type="text" name="userId" value="" id="userId" placeholder="User Id" required="required"/><br>
+
+       <label for"userId">Password</label>
+       <input type="password" name="userPassword" value="" id="userPassword" placeholder="Password" required="required"/><br>
+
+       <img id="captchaImg" src=" " alt="Reload"/>
+
+  <!-- captcha source missing-->
+
+       <img  id="" alt="reload" src=" " onclick=""/><br>
+
+  <!-- RELOAD img source, onclick missing-->
+
+        <label for"captcha">Verification code</label>
+       <input style="width:10% !important" type="text" class="inputcaptcha" name="captcha" id="captcha" placeholder="Verify"><br>
+       <input type="submit" onclick="encodePasswordField();" class="submit" name="B1" value="Submit"/>
+       <input type="button" value="Reset"onClick="this.form.reset()" name="B2" class="submit" /> <br>
+       <a href="signupUser">Create A New Account</a><br>
+       <a href="forgotPassword">Forget Password</a>/<a href="forgotUserid">Forget User Id</a>
+
+
+    </form>
+  </div>
+</section>
+
+<div class="navbar">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+
+
+
+</body>
+</html>
