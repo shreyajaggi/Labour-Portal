@@ -1,0 +1,166 @@
+<html>
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-XSS-Protection" content="1">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+  </script>
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <a id=logo><img src="img/2.jpg" alt="logo"/> &nbsp;&nbsp;
+    <h1>Home</h1>
+    <h1>Labour Portal</h1>
+
+  </div>
+  <div class="topnav" id="myTopnav">
+  <a href="#">Home</a>
+  <a href="#">Objective</a>
+  <a href="#Applicable" class="active">Applicable Acts</a>
+  <a href="#">Registration and License</a>
+  <a href="#">EPFO/ESIC/CLC Return</a>
+  <a href="#">Online Register</a>
+  <a href="#">State Integration</a>
+  <a href="#">Services</a>
+  <a href="#">Reports</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div id ="Applicable">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+         
+          <img src="https://www.lawsen-avocats.com/wp-content/uploads/labour-law-2017-750x300.jpg" style="width:100%; height:220px">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          
+          <img src="https://d2dzik4ii1e1u6.cloudfront.net/images/lexology/static/625d3136-bbc9-4bb4-a517-b9c4376b1a4d.PNG" style="width:100% ; height:220px">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          
+          <img src="https://www.complybook.com/images/blogs/original/1575260960TheConsolidatedLabourLawTheCodeOnWages.jpg" style="width:100%; height:220px">
+         
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides,3000); // Change image every 3 seconds
+        }
+        </script>
+</div>
+<div class="left">
+	<div class="drop">
+	 <button
+	 class="dropbtn">STATES</button>
+	 <div class="drop-content">
+	  <a href="states.php?data=Andhra Pradesh">Andhra Pradesh</a>
+	  <a href="states.php?data=Arunachal Pradesh">Arunachal Pradesh</a>
+	  <a href="states.php?data=Assam">Assam</a>
+	  <a href="states.php?data=Bihar">Bihar</a>
+	  <a href="states.php?data=Chhattisgarh">Chhattisgarh</a>
+	  <a href="states.php?data=Goa">Goa</a>
+	  <a href="states.php?data=Gujarat">Gujarat</a>
+	  <a href="states.php?data=Haryana">Haryana</a>
+	  <a href="states.php?data=Himachal Pradesh">Himachal Pradesh</a>
+	  <a href="states.php?data=Jammu and Kashmir">Jammu and Kashmir</a>
+	  <a href="states.php?data=Jharkhand">Jharkhand</a>
+	  <a href="states.php?data=Karnataka">Karnataka</a>
+	  <a href="states.php?data=Kerala">Kerala</a>
+	  <a href="states.php?data=Madhya Pradesh">Madhya Pradesh</a>
+	  <a href="states.php?data=Maharashtra">Maharashtra</a>
+	  <a href="states.php?data=Manipur">Manipur</a>
+	  <a href="states.php?data=Meghalaya">Meghalaya</a>
+	  <a href="states.php?data=Mizoram">Mizoram</a>
+	  <a href="states.php?data=Nagaland">Nagaland</a>
+	  <a href="states.php?data=Odisha">Odisha</a>
+	  <a href="states.php?data=Punjab">Punjab</a>
+	  <a href="states.php?data=Rajasthan">Rajasthan</a>
+	  <a href="states.php?data=Sikkim">Sikkim</a>
+	  <a href="states.php?data=Tamil Nadu">Tamil Nadu</a>
+	  <a href="states.php?data=Tripura">Tripura</a>
+	  <a href="states.php?data=Uttar Pradesh">Uttar Pradesh</a>
+	  <a href="states.php?data=Uttarakhand">Uttarakhand</a>
+	  <a href="states.php?data=West Bengal">West Bengal</a>
+	 </div>
+	</div>
+	</div>
+	<div class="right">
+	<div class="drop">
+	 <button
+	 class="dropbtn">UNION TERRITORIES</button>
+	 <div class="drop-content">
+	  <a href="states.php?data=Andaman and Nicobar Islands">Andaman and Nicobar Islands</a>
+	  <a href="states.php?data=Chandigarh">Chandigarh</a>
+	  <a href="states.php?data=Dadar and Nagar Haveli">Dadar and Nagar Haveli</a>
+	  <a href="states.php?data=Daman and Diu">Daman and Diu</a>
+	  <a href="states.php?data=Chhattisgarh">Chhattisgarh</a>
+	  <a href="states.php?data=Delhi">Delhi</a>
+	  <a href="states.php?data=Lakshadweep">Lakshadweep</a>
+	  <a href="states.php?data=Puducherry">Puducherry</a>
+	 </div>
+	</div>
+	</div>
+    </body>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+<div class="navbar">
+<center>
+  <a href="#home" class="active">Website Policies</a>
+  <a href="#FAQ">FAQ</a>
+  <a href="#help">Help</a>
+  <a href="#Policy">Policy</a>
+  <a href="#contact">Contact Us</a>
+  <a href="#about us">About Us</a> </center>
+  <p>2020 Copyright</p>
+  </div>
+</footer>
+
+</html>
