@@ -30,7 +30,7 @@
   <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
   <a href="#">Objective</a>
-  <a href="#">Applicable Acts</a>
+  <a href="applicable.html">Applicable Acts</a>
   <a href="#">Registration and License</a>
   <a href="#">EPFO/ESIC/CLC Return</a>
   <a href="#">Online Register</a>
